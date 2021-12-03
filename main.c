@@ -5,7 +5,7 @@
 int calc(int left, char op, int right) {
   switch (op) {
   case '+':
-    return left + right;
+    return left + right + 1;
   case '-':
     return left - right;
   case '*':
